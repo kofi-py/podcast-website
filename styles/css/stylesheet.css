@@ -2,7 +2,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    background-color: #fbf2e9;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
 }
 
 .welcome {
@@ -24,6 +24,8 @@ p.goal {
     padding: 50px;
     margin: 20px;
     border-radius: 25px;
+    animation: ease-in;
+    animation-duration: 2s;
 }
 
 .name {
@@ -33,4 +35,9 @@ p.goal {
 
 .description {
     padding-top: 7px;
+}
+
+.episode-container {
+    display: grid;
+    grid-template-columns: 600px 1fr;
 }

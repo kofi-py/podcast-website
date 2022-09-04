@@ -9,26 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/css/stylesheet.css">
     <link rel="stylesheet" href="styles/css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Bible Essentials</title>
 </head>
 <body>
     <div class="welcome">Welcome to the Bible Essentials Podcast!</div>
     <p class="goal">This podcast is meant to help you understand the Bible in a much simpler way.</p>
-    <div class="episoide">
-        <div class="name">Image of God</div>
-        <p class="description">What does it mean to be an "image of God?" Listen to this episode to find out!</p>
-        <audio controls>
-            <source src="/episodes/Bible Essentials - Episode 1 - Image of God.mp3">
-            Your browser does not support the audio element.
-        </audio>
+    <div class="episode-container">
+        <div class="episoide" data-aos="flip-down">
+            <div class="name">Image of God</div>
+            <p class="description">What does it mean to be an "image of God?" Listen to this episode to find out!</p>
+            <audio controls>
+                <source src="/episodes/Bible Essentials - Episode 1 - Image of God.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="episoide" data-aos="flip-down">
+            <div class="name">The Son of Man</div>
+            <p class="description">Jesus calls Himself the Son of Man, but what does that even mean? And where does that name come from? Listen to this episode to find out!</p>
+            <audio controls>
+                <source src="/episodes/Bible Essentials - Episode 2 - The Son of Man.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
     </div>
-    <div class="episoide">
-        <div class="name">The Son of Man</div>
-        <p class="description">Jesus calls Himself the Son of Man, but what does that even mean? And where does that name come from? Listen to this episode to find out!</p>
-        <audio controls>
-            <source src="/episodes/Bible Essentials - Episode 2 - The Son of Man.mp3">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
