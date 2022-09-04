@@ -1,0 +1,36 @@
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #fbf2e9;
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+p.goal {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.episoide {
+    width: 400px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.description {
+    padding-top: 7px;
+}
